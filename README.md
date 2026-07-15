@@ -38,6 +38,13 @@ plainly, on a non-rooted device. `minSdkVersion` is 14 (Android 4.0 ICS).
    (tap "View Terminal Log").
 6. Offers a one-tap reboot once the install finishes.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/1.png" width="45%" alt="Terminal Log" />
+  <img src="screenshots/2.png" width="45%" alt="Verification" />
+</p>
+
 ## Project layout
 
 ```

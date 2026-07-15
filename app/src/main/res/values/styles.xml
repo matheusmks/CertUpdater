@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Native android:Theme.Holo - no support-library / Material override,
+         so this renders as true classic "holographic" Android UI on every
+         API level, from 14 all the way up. -->
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:colorPressedHighlight">@color/holo_blue_dark</item>
+        <item name="android:colorLongPressedHighlight">@color/holo_blue_dark</item>
+        <item name="android:colorFocusedHighlight">@color/holo_blue_light</item>
+        <item name="android:colorActivatedHighlight">@color/holo_blue_light</item>
+    </style>
+
+    <style name="SectionLabel">
+        <item name="android:textColor">@color/holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+
+    <style name="BodyText">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TerminalText">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/terminal_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>

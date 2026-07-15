@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CA Cert Updater</string>
+    <string name="log_title">Terminal Output</string>
+
+    <string name="root_checking">Checking root access\u2026</string>
+    <string name="root_ok">Root access granted</string>
+    <string name="root_missing">No root access detected. This app only works on rooted devices.</string>
+
+    <string name="source_label">Certificate Source</string>
+    <string name="source_local">Import from local storage</string>
+    <string name="source_download">Download latest from Google (android_system CA repo)</string>
+
+    <string name="btn_pick_file">Choose Certificate File\u2026</string>
+    <string name="btn_update">Update Certificates Now</string>
+    <string name="btn_reboot">Reboot Device</string>
+    <string name="btn_view_log">View Terminal Log</string>
+
+    <string name="no_file_selected">No file selected</string>
+    <string name="status_idle">Ready.</string>
+
+    <string name="warning_text">This modifies the system CA trust store on your device.
+        A backup of your existing certificates is made automatically before any
+        change, but proceed at your own risk.</string>
+</resources>

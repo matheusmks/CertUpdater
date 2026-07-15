@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.androidafterlife.certupdater'
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.androidafterlife.certupdater"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+// Deliberately no dependencies block: this app uses ONLY the plain Android
+// framework SDK (no AndroidX / support-v4 / appcompat) so the native
+// android:Theme.Holo styling renders exactly as-is, and so the app stays
+// buildable with a minSdkVersion as low as 14 without library version
+// conflicts.

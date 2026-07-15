@@ -98,11 +98,6 @@ gradle wrapper --gradle-version 7.6.4   # only needed once, to generate gradlew/
 ```
 The APK lands in `app/build/outputs/apk/debug/app-debug.apk`.
 
-(I built this project's source and resources for you in this sandbox,
-but couldn't compile the final APK myself — this environment has no
-Android SDK and no network access. The steps above are the standard way
-to turn this source into an installable APK.)
-
 ## Testing on the device
 
 1. Install the APK, grant your root manager (Magisk/SuperSU/etc.) the
